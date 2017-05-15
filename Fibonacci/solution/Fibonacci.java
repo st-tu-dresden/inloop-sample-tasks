@@ -1,8 +1,8 @@
-class Fibonacci {
+public class Fibonacci {
 
-  public int calcFib (int n) {
+  public static int fibonacci (int n) {
     if (n < 0)
-      throw new IllegalArgumentException("Fibonacci is not defined for neagtive Numbers!");
+      throw new IllegalArgumentException("Fibonacci is not defined for negative Numbers!");
     if (n == 0)
       return 0;
     int prev1 = 1, prev2 = 1, tmp = 0;

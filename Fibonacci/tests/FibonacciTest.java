@@ -5,28 +5,22 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class FibonacciTest {
-    private Fibonacci f;
-
-    @Before
-    public void setUp() {
-        f = new Fibonacci();
-    }
 
     @Test
-    public void testcalcFib() {
+    public void testFibonacci() {
         //test some test values
-        assertEquals("The result of calcFib(0) should be 0.", 0, f.calcFib(0));
-        assertEquals("The result of calcFib(3) should be 2.", 2, f.calcFib(3));
-        assertEquals("The result of calcFib(6) should be 8.", 8, f.calcFib(6));
+        assertEquals("The result of fibonacci(0) should be 0.", 0, Fibonacci.fibonacci(0));
+        assertEquals("The result of fibonacci(3) should be 2.", 2, Fibonacci.fibonacci(3));
+        assertEquals("The result of fibonacci(6) should be 8.", 8, Fibonacci.fibonacci(6));
     }
 
 
     @Test
-    public void testcalcFibIllegalArgument() {
+    public void testFibonacciIllegalArgument() {
         //test exception
         try {
-            f.calcFib(-1);
-            fail("Fibonacci.testcalcFib() should throw a IllegalArgumentException if the argument is negative!");
+            Fibonacci.fibonacci(-1);
+            fail("Fibonacci.fibonacci() should throw a IllegalArgumentException if the argument is negative!");
         } catch (IllegalArgumentException e) {}
     }
 
