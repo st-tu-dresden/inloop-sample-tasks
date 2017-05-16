@@ -1,12 +1,12 @@
-Write a class called `Fibonacci` within the function `fibonacci (int n)` which returns
-the result of the Fibonacci function of given number `n`.
+Implement a class `Fibonacci` containing a static method `fibonacci(int n)`,
+which returns the n-th element of the fibonacci sequence.
 
-Make sure that only legal arguments will be accepted otherwise throw an
+Make sure that only legal arguments will be accepted, otherwise throw an
 IllegalArgumentException `Fibonacci is not defined for negative Numbers!`.
 
 ## Example ##
 
-Here are some values to show, which results the function `fibonacci (n)` should return.
+Here are some values to show which results the function `fibonacci (n)` should return:
 
 `n` --> `fibonacci (n)`  
 0 --> 0  
