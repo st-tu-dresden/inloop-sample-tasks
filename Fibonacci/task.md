@@ -2,7 +2,7 @@ Implement a class `Fibonacci` containing a static method `fibonacci(int n)`,
 which returns the n-th element of the fibonacci sequence.
 
 Make sure that only legal arguments will be accepted, otherwise throw an
-IllegalArgumentException `Fibonacci is not defined for negative Numbers!`.
+IllegalArgumentException `Fibonacci is not defined for negative numbers!`.
 
 ## Example ##
 
