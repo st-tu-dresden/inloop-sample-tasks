@@ -1,0 +1,7 @@
+**/solution/
+**/build/
+**/meta.yml
+**/task.md
+**/.*
+Dockerfile
+Makefile
