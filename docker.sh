@@ -1,6 +1,6 @@
 #!/bin/sh
 task=$1
-mkdir -p $task/storage
+mkdir -m 777 -p $task/storage
 exec docker run --rm --read-only \
   --tmpfs=/checker/scratch/build \
   --volume="$PWD/$task/solution:/checker/input:ro" \
