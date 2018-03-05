@@ -24,7 +24,8 @@ public class Fibonacci {
 }
 ```
 
-The start of sequence must be implemented so that `fib(0) == 0` and `fib(1) == 1`.
+The start of sequence must be implemented so that `fib(0) == 0` and `fib(1) == 1`. Furthermore,
+illegal argument values of `x` must be handled by throwing an appropriate exception.
 
 
 ## Resources

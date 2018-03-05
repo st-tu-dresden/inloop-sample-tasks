@@ -17,4 +17,9 @@ public class FibonacciTest {
 	public void largeValue() {
 		assertEquals(1836311903, Fibonacci.fib(46));
 	}
+
+	@Test(expected = IllegalArgumentException.class)
+	public void illegalArgument() {
+		Fibonacci.fib(-1);
+	}
 }
