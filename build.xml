@@ -7,7 +7,7 @@
 
   <property name="build.dir" value="/checker/scratch/build"/>
   <property name="checker.input" value="/checker/input"/>
-  <property name="checker.input" value="/checker/output/storage"/>
+  <property name="checker.output" value="/checker/output/storage"/>
 
   <target name="compile">
     <mkdir dir="${build.dir}"/>
