@@ -13,16 +13,8 @@ From [Wikipedia][wiki]:
 
 ## Task
 
-Your task is to implement the Fibonacci function in Java. Use the following code as a starting
-point:
-
-```java
-public class Fibonacci {
-    public static int fib(int x) {
-        /* your implementation here */
-    }
-}
-```
+Your task is to implement the Fibonacci function in Java. As a starting point, use the code
+template shown in the editor on the right side (you can also download the template below).
 
 The start of sequence must be implemented so that `fib(0) == 0` and `fib(1) == 1`. Furthermore,
 illegal argument values of `x` must be handled by throwing an appropriate exception.
